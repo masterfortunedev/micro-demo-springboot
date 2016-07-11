@@ -9,6 +9,7 @@ public class HelloWildFlyController {
 
     @RequestMapping("hello")
     public String sayHello(){
-        return ("Hello, SpringBoot on SpringBoot in meccano project .....");
+    	String aaa = new String("AAAA");
+        return ("AAAA SpringBoot on SpringBoot in meccano project .....");
     }
 }
